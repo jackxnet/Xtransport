@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "Xtransport", "Xtransport.vbproj", "{7A0FF4A3-C91F-47DE-8274-9F45A9467B20}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E44C9952-F95C-4954-B60D-731F45F8E7FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A0FF4A3-C91F-47DE-8274-9F45A9467B20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A0FF4A3-C91F-47DE-8274-9F45A9467B20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A0FF4A3-C91F-47DE-8274-9F45A9467B20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A0FF4A3-C91F-47DE-8274-9F45A9467B20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CCB883C7-F2D1-4B1D-BB15-B28B62740A19}
+	EndGlobalSection
+EndGlobal
