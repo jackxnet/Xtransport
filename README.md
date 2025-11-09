@@ -1,6 +1,6 @@
 # xTransporter
 
-watch 5 pi's with 10 xtransport connections for 3Gb/s Backup
+watch 5 pi's with 10 xtransport connections for 4Gb/s Backup
 
 https://infinitynull.com/pi/piuploadtest.mkv
 
@@ -24,6 +24,30 @@ Simple to start hosting using the SetSocket Class
 
 Simple to start Client by using nodeclient class
 
+Note all traffic is queued to a global concurrent.Queue
+regardless of how many xtransports is opened to keep
+threadsafe opperations. No calling events
+
+Node queues come off of data_read_node queue
+Host queues come off data_ready_host queue
+
+Queues managed with a task.run function vs event handler 
+
+example:
+                task.run(sub()
+                  While canceltoken = False
+                    While data_ready_node.Count > 0
+                        Dim rf As return_frame = Nothing
+                        Dim r = data_ready_node.TryDequeue(rf)
+                        If r = True Then
+                            processr(rf)
+                            'QueryClient.dataready(rf.b)
+                            'do work with new data
+                        End If
+                     End While
+                     Sleep(10)
+                    End While
+                End sub)
 
 Start Hosting Service 
 
