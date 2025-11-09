@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>xnethost</RootNamespace>
+    <TargetFramework>net8.0</TargetFramework>
+    <NoWarn>$(NoWarn);SYSLIB0011</NoWarn>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Platforms>AnyCPU;x64;ARM64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ClientsDeque.vb" />
+    <Compile Remove="ClientsQue.vb" />
+    <Compile Remove="dbtosock.vb" />
+    <Compile Remove="SetSocket.vb" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="System.Device.Gpio" Version="4.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\Xtransport.vbproj" />
+    <ProjectReference Include="..\IPv6Helper\IPV6helper.vbproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="settings.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+ </Project>
+

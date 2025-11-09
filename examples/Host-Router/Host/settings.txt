@@ -1,0 +1,8 @@
+filepath = c:\fileserver\
+pluginpath = c:\plugins\motion\
+dbasepath = c:\pidrive\
+debugon = 1
+service = 5:Garage,4:LivingRoom,6:DiningRoom
+#Host = HOST,10001,192.168.0.215,8025,1025,39000,40000,25,50,0,8900,8900
+client = CLIENT,1234567,192.168.0.27,8021,911,50,50,54321,Aclient,0,1,1500
+#ipv4addy = 192.168.0.175

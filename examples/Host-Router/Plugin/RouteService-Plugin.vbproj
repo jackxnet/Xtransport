@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>RouteService_Plugin</RootNamespace>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\Xtransport.vbproj" />
+    <ProjectReference Include="..\Host\xnethost.vbproj" />
+  </ItemGroup>
+
+</Project>
