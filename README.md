@@ -33,25 +33,8 @@ Host queues come off data_ready_host queue
 
 Queues managed with a task.run function vs event handler 
 
-example:
-task.run(sub()
-          While canceltoken = False
-              While data_ready_node.Count > 0
-                   Dim rf As return_frame = Nothing
-                   Dim r = data_ready_node.TryDequeue(rf)
-                      If r = True Then
-                         processr(rf)
-                         'QueryClient.dataready(rf.b)
-                         'do work with new data
-                      End If
-              End While
-              Sleep(10)
-          End While
-       End sub)
 
-
-Start Hosting Service 
-
+Start Hosting Service
 
  serversock = new setsocket
 
