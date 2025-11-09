@@ -17,7 +17,10 @@ USe host to nodes for server/client type service including
 File/database services
 
 use multi (node) connections app to multi ipcams to watch unlimited ipcams
-(use the rtp/xtransport bridge on a iot/raspberry pi) for each stream
+(use the rtp/xtransport bridge on a iot/raspberry pi) for each stream. Record
+rtp traffic on a pi and stream playback from pi using xtransport. xtransport
+custom messages an be used to request playback from pi. (using the record
+/playback plugin)
 
 possible building onion type udp node-host-host-host-node route to
 for anonymous ip traffic.
