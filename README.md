@@ -16,7 +16,7 @@ using multichannels for different chat/services
 USe host to nodes for server/client type service including
 File/database services
 
-use multinodes on app to multi ipcams to watch unlimited ipcams
+use multi (node) connections app to multi ipcams to watch unlimited ipcams
 (use the rtp/xtransport bridge on a iot/raspberry pi) for each stream
 
 possible building onion type udp node-host-host-host-node route to
