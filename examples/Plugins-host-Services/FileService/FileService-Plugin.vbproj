@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>VideoService_Plugin</RootNamespace>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Emgu.CV" Version="4.11.0.5746" />
+    <PackageReference Include="Emgu.CV.Bitmap" Version="4.11.0.5746" />
+    <PackageReference Include="Emgu.CV.runtime.windows" Version="4.11.0.5746" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\Xtransport.vbproj" />
+    <ProjectReference Include="..\..\Host-Core\xnethost.vbproj" />
+  </ItemGroup>
+
+</Project>

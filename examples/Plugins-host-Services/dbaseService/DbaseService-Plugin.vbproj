@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>DabebaseService_Plugin</RootNamespace>
+    <TargetFramework>net8.0</TargetFramework>
+    <NoWarn>$(NoWarn);SYSLIB0011</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\Xtransport.vbproj" />
+    <ProjectReference Include="..\..\Host-Core\xnethost.vbproj" />
+  </ItemGroup>
+
+</Project>

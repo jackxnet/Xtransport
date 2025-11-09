@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\src\Xtransport.vbproj" />
+    <ProjectReference Include="..\..\src\Xtransport.vbproj" />
     <ProjectReference Include="..\IPv6Helper\IPV6helper.vbproj" />
   </ItemGroup>
 
