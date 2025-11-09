@@ -17,6 +17,14 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "FileService-Plugin", "..\ex
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "RouteService-Plugin", "..\examples\Plugins-host-Services\RoutingService\RouteService-Plugin.vbproj", "{38F95BC8-7B72-433E-A361-FC26E368C778}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AD75FBC7-154B-4879-AC9D-AFBCA1CBDE00}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitattributes = ..\.gitattributes
+		..\.gitignore = ..\.gitignore
+		..\LICENSE.txt = ..\LICENSE.txt
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

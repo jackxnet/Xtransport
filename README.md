@@ -1,5 +1,28 @@
 # xTransporter
 
+Pxp Communication Protocol allowing multinode to host connections
+which are always connected with port/unicast/multicast/port node
+to node rounting.
+
+host video/voice/podcast to multinodes
+
+cross connect  your(host on multinode) to my(host to multinoce)
+to create a cross connect for zoom/ group video/audio hosting
+type connections
+
+Use host for routing node to nodes for alarm notify/ messaging/chat
+using multichannels for different chat/services
+
+USe host to nodes for server/client type service including
+File/database services
+
+use multinodes on app to multi ipcams to watch unlimited ipcams
+(use the rtp/xtransport bridge on a iot/raspberry pi) for each stream
+
+possible building onion type udp node-host-host-host-node route to
+for anonymous ip traffic.
+
+
 watch 5 pi's with 10 xtransport connections for 4Gb/s Backup
 
 https://infinitynull.com/pi/piuploadtest.mkv
