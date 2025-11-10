@@ -7,13 +7,13 @@ to node rounting.
 watch 5 pi's with 10 xtransport connections for 4Gb/s Backup
 https://github.com/user-attachments/assets/3557bab4-af74-4fea-95f5-cc86295d110e
 
-# KEY Features:
+# KEY Features/Usages:
 
 File Hosting
 
 Database Hosting
 
-Routing
+Routing by Id/channel/port
 
 Alarm System
 
@@ -31,48 +31,37 @@ Multiple Transport (Bonding) for higher throughput
 
 Alway on connection with node retry connection if host lost
 
-# KEY Usages:
+# Recommended Projects/Apps:
 
-host video/voice/podcast to multinodes
+*Host video/voice/podcast to multinodes
 
-cross connect  your(host on multinode) to my(host to multinoce)
+*Cross connect  your(host on multinode) to my(host to multinoce)
 to create a cross connect for zoom/ group video/audio hosting
 type connections
 
-Use host for routing node to nodes for alarm notify/ messaging/chat
-using multichannels for different chat/services
+-Use host for routing node to nodes packets/messages for alarm notify/ messaging/chat
 
-Great for Lora radio bridge to route Lora Messages to internet nodes
+- Custom channels to route different services or multi Chat Channels. Example use channel 911 for alarm notifications
+ 
+-Great for Lora radio bridge to route Lora Messages to internet nodes
 or use to route from lora to lora network over the internet. I've done a bridge
 plugin using the RYLR998 UART and using different xtransport channels to match
 the lora channel set in the 998 UART.
 
-USe host to nodes for server/client type service including
+-Use host to nodes for server/client type service including
 File/database services
 
-use multi (node) connections app to multi ipcams to watch unlimited ipcams
+-Use multi (node) connections app to multi ipcams to watch unlimited ipcams
 (use the rtp/xtransport bridge on a iot/raspberry pi) for each stream. Record
 rtp traffic on a pi and stream playback from pi using xtransport. xtransport
 custom messages an be used to request playback from pi. (using the record
 /playback plugin)
 
-possible building onion type udp node-host-host-host-node route to
+-Possible building onion type udp node-host-host-host-node route to
 for anonymous ip traffic.
 
-This is a transport protocol that uses UDP message type packets that
-can by route with guarantee replacing TCP/IP.
+-routing encrypted payloads node to node.
 
-Host to client communication, send by channel Unicast or Multicast messages.
-
-I have built alarm systems, security camera, voice, video, chat messaging
-
-database communication, file backup to multiple raspberry Pi's using
-
-multiple connections to each pi. Easy to add a Lora Bridge for routing messages
-
-through the internet, Sip bridges. Replaces TCP/IP with an alway on connection
-
-to the host.
 
 # Setup Notes:
 Easy to build a Host-Service-Plugin for custom host/route services
