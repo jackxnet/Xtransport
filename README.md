@@ -159,11 +159,10 @@ Routing
 Alarm System
 Security Camera 
 File Backup through distributed Raspberry Pi
-File MyPiDrive like onedrive using 
+File MyPiDrive like onedrive
 Lora bridge to xPXP network
 Sip Bridge
-Voice
-Video
+Voice and Video transport
 Multiple Transport and bonding using routing by port number
 
 Alway on connection with node retry connection if host lost
