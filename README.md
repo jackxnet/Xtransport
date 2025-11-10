@@ -65,6 +65,8 @@ for anonymous ip traffic.
 
 -routing encrypted payloads node to node.
 
+- Building a Block/Chain network aggregating blocks across many networks using channels/multicast notifications
+
 
 # Setup Notes:
 Easy to build a Host-Service-Plugin for custom host/route services
