@@ -176,6 +176,8 @@ Will convert to C# when/if necessary
 
 I will be posting a core host example with plugin services
 
-E-mail any questions/comments or interested projects to
+# Comments/Suggestions/Contact
+
+E-mail any questions/comments/Suggestions to
 jack@mindchill.net
 
