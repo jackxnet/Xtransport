@@ -64,8 +64,7 @@ through the internet, Sip bridges. Replaces TCP/IP with an alway on connection
 
 to the host.
 
-How to Use xTransport:
-
+# Setup Notes:
 Easy to build a Host-Service-Plugin for custom host/route services
 
 Simple to start hosting using the SetSocket Class
@@ -82,7 +81,7 @@ Host queues come off data_ready_host queue
 Queues managed with a task.run function vs event handler 
 
 
-Start Hosting Service
+# Easy Host Setup example:
 
  serversock = new setsocket
 
@@ -114,7 +113,7 @@ Start Hosting Service
 
 
 
-Starting Node Client example
+# Easy Node Setup Example:
 
 
   Public xcf As New XClient
