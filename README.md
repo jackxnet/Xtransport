@@ -153,18 +153,29 @@ Will convert to C# when/if necessary
 
 I will be posting a core host example with plugin services
 
+Key Features and Uses
+
 File Hosting
+
 Database Hosting
+
 Routing
+
 Alarm System
+
 Security Camera 
-File Backup through distributed Raspberry Pi
-File MyPiDrive like onedrive
+
+distributed file system
+
 Lora bridge to xPXP network
-Sip Bridge
+
+Sip to xtransport
+
 Voice and Video transport
-Multiple Transport and bonding using routing by port number
+
+Multiple Transport (Bonding) for higher throughput
 
 Alway on connection with node retry connection if host lost
+
 Route by Unicast, channel, Multicast, and by Port
 
