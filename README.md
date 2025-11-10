@@ -175,8 +175,6 @@ between different services routed on the same channel(s)
 Will convert to C# when/if necessary
 
 I will be posting a core host example with plugin services
-
-
-
-Route by Unicast, channel, Multicast, and by Port
+E-mail any questions/comments or interested projects to
+jack@mindchill.net
 
