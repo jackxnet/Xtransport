@@ -10,15 +10,25 @@ https://github.com/user-attachments/assets/3557bab4-af74-4fea-95f5-cc86295d110e
 # KEY Features:
 
 File Hosting
+
 Database Hosting
+
 Routing
+
 Alarm System
+
 Security Camera 
+
 distributed file system
+
 Lora bridge to xPXP network
+
 Sip to xtransport
+
 Voice and Video transport
+
 Multiple Transport (Bonding) for higher throughput
+
 Alway on connection with node retry connection if host lost
 
 # KEY Usages:
@@ -141,10 +151,12 @@ Queues managed with a task.run function vs event handler
   fsclient.startclient("192.168.0.215")
 
 
+# Build custome xTransport Packets using the Route Header:
+
   Packets can be customized for different custom use only requires the
     routing header
 
-   Dim body As New List(Of Byte)
+        Dim body As New List(Of Byte)
 
         body.AddRange(BitConverter.GetBytes(routecode))
 
