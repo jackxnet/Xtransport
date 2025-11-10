@@ -4,6 +4,25 @@ Pxp Communication Protocol allowing multinode to host connections
 which are always connected with port/unicast/multicast/port node
 to node rounting.
 
+watch 5 pi's with 10 xtransport connections for 4Gb/s Backup
+https://github.com/user-attachments/assets/3557bab4-af74-4fea-95f5-cc86295d110e
+
+# KEY Features:
+
+File Hosting
+Database Hosting
+Routing
+Alarm System
+Security Camera 
+distributed file system
+Lora bridge to xPXP network
+Sip to xtransport
+Voice and Video transport
+Multiple Transport (Bonding) for higher throughput
+Alway on connection with node retry connection if host lost
+
+# KEY Usages:
+
 host video/voice/podcast to multinodes
 
 cross connect  your(host on multinode) to my(host to multinoce)
@@ -30,11 +49,6 @@ custom messages an be used to request playback from pi. (using the record
 possible building onion type udp node-host-host-host-node route to
 for anonymous ip traffic.
 
-
-watch 5 pi's with 10 xtransport connections for 4Gb/s Backup
-
-https://infinitynull.com/pi/piuploadtest.mkv
-
 This is a transport protocol that uses UDP message type packets that
 can by route with guarantee replacing TCP/IP.
 
@@ -50,6 +64,7 @@ through the internet, Sip bridges. Replaces TCP/IP with an alway on connection
 
 to the host.
 
+How to Use xTransport:
 
 Easy to build a Host-Service-Plugin for custom host/route services
 
@@ -153,29 +168,7 @@ Will convert to C# when/if necessary
 
 I will be posting a core host example with plugin services
 
-Key Features and Uses
 
-File Hosting
-
-Database Hosting
-
-Routing
-
-Alarm System
-
-Security Camera 
-
-distributed file system
-
-Lora bridge to xPXP network
-
-Sip to xtransport
-
-Voice and Video transport
-
-Multiple Transport (Bonding) for higher throughput
-
-Alway on connection with node retry connection if host lost
 
 Route by Unicast, channel, Multicast, and by Port
 
