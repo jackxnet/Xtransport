@@ -39,6 +39,9 @@ Alway on connection with node retry connection if host lost
 to create a cross connect for zoom/ group video/audio hosting
 type connections
 
+-Distributed File System/Storage. Example aggregate bandwidth over several 1gb/s connections for fast backups
+using distributed data chunks and a map to restore distributed chunks back to orginal files.
+
 -Use host for routing node to nodes packets/messages for alarm notify/ messaging/chat
 
 - Custom channels to route different services or multi Chat Channels. Example use channel 911 for alarm notifications
