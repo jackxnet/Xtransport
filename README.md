@@ -77,7 +77,10 @@ threadsafe opperations. No calling events
 Node queues come off of data_read_node queue
 Host queues come off data_ready_host queue
 
-Queues managed with a task.run function vs event handler 
+Queues managed with a task.run function vs event handler
+
+Standard Message and Payload Formats for maximum compatibility
+between different services routed on the same channel(s)
 
 
 # Easy Host Setup example:
@@ -140,7 +143,7 @@ Queues managed with a task.run function vs event handler
   fsclient.startclient("192.168.0.215")
 
 
-# Build custome xTransport Packets using the Route Header:
+# Build custom xTransport Packets using the Route Header:
 
   Packets can be customized for different custom use only requires the
     routing header
