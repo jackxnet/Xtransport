@@ -13,6 +13,11 @@ type connections
 Use host for routing node to nodes for alarm notify/ messaging/chat
 using multichannels for different chat/services
 
+Great for Lora radio bridge to route Lora Messages to internet nodes
+or use to route from lora to lora network over the internet. I've done a bridge
+plugin using the RYLR998 UART and using different xtransport channels to match
+the lora channel set in the 998 UART.
+
 USe host to nodes for server/client type service including
 File/database services
 
@@ -45,6 +50,8 @@ through the internet, Sip bridges. Replaces TCP/IP with an alway on connection
 
 to the host.
 
+
+Easy to build a Host-Service-Plugin for custom host/route services
 
 Simple to start hosting using the SetSocket Class
 
