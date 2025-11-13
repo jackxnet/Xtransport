@@ -9,6 +9,8 @@ https://github.com/user-attachments/assets/3557bab4-af74-4fea-95f5-cc86295d110e
 
 # KEY Features/Usages:
 
+Zoom style conferencing using P2P
+
 File Hosting
 
 Database Hosting
